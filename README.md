@@ -20,6 +20,7 @@ It provides a clean chat interface where users can interact with an AI Research 
 ###  Prerequisites
 
 - Node.js >= 18
+  https://nodejs.org/dist/v24.12.0/node-v24.12.0.pkg
 - npm 
 
 Check versions:
