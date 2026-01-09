@@ -17,6 +17,19 @@ It provides a clean chat interface where users can interact with an AI Research 
 - react-markdown
 - remark-gfm
 
+###  Prerequisites
+
+- Node.js >= 18
+- npm 
+
+Check versions:
+
+```bash
+node -v
+```
+```
+npm -v
+```
 
 ## Project Structure
 <pre>
