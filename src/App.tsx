@@ -76,7 +76,16 @@ function App() {
       const id = setTimeout(() => {
         const botMessage: Message = {
           id: (Date.now() + 1).toString(),
-          text: '**Summary:** This is a simulated response. I am analyzing your request...\n\n- Point 1\n- Point 2\n\n[Source: Nature Journal]',
+         text: `🚀 **Great question! I'm analyzing your request...**
+
+✨ **Summary:** This is a simulated AI research response.
+
+• **Point 1:** The assistant extracts key insights from research papers.  
+• **Point 2:** It structures information in an easy-to-read format.
+
+📚 **Source:** Nature Journal
+
+_(This is a demo response — real AI integration coming soon 😉)_`,
           sender: 'bot'
         }
         setMessages(prev => {
@@ -174,7 +183,7 @@ function Message({ message }: { message: Message }) {
         </div>
         <div className={`p-4 rounded-2xl shadow-md ${isUser ? 'bg-blue-500 text-white' : 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100'}`}>
           {message.sender === 'bot' ? (
-            <div className="prose prose-sm dark:prose-invert max-w-none">
+            <div className="prose prose-sm dark:prose-invert max-w-none ">
             <ReactMarkdown remarkPlugins={[remarkGfm]} >
               {message.text}
             </ReactMarkdown>
