@@ -18,15 +18,15 @@ It provides a clean chat interface where users can interact with an AI Research 
 - remark-gfm
 
 
-##Project Structure
-
+## Project Structure
+<pre>
 sanofi/
 ├── public/
 ├── src/
 │   ├── assets/
-│   ├── App.tsx          # Main chat UI
-│   ├── main.tsx        # App bootstrap
-│   ├── index.css       # Tailwind styles
+│   ├── App.tsx        # Main chat UI
+│   ├── main.tsx       # App bootstrap
+│   ├── index.css      # Tailwind styles
 │   └── App.css
 ├── index.html
 ├── tailwind.config.js
@@ -34,6 +34,8 @@ sanofi/
 ├── vite.config.ts
 ├── package.json
 └── README.md
+</pre>
+
 
 
 ## Getting Started
